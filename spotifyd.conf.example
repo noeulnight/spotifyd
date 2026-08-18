@@ -1,0 +1,15 @@
+[global]
+device_name = "ACTON II AUX"
+device_type = "speaker"
+cache_path = "/data"
+no_audio_cache = true
+use_mpris = false
+disable_discovery = false
+zeroconf_port = 1234
+backend = "alsa"
+device = "hw:2,0"
+audio_format = "S16"
+volume_controller = "softvol"
+bitrate = 320
+initial_volume = 60
+
